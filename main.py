@@ -24,6 +24,5 @@ def contact():
     return "<h1>На цій сторінці ви можете зв'язатись з нами</h1>"
 
 
-
 if __name__ == '__main__':
     app.run(debug=True)
