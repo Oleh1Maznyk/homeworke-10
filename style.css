@@ -11,7 +11,7 @@ body {
 .main_box {
     width: 450px;
     height: 530px;
-    background-color: #00CFC1;
+    background-color: #31bab1;
     padding: 15px;
     display: grid;
     grid-template-rows: auto auto;
@@ -23,7 +23,7 @@ body {
 }
 
 .main_box:hover {
-    box-shadow: 0 0 10px #0c7f78, 0 0 30px #00CFC1;
+    box-shadow: 0 0 10px #0b938a, 0 0 65px #91deda;
     transform: scale(1.05);
 }
 
