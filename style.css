@@ -10,12 +10,12 @@ body {
 
 .main_box {
     width: 450px;
-    height: 530px;
+    height: 600px;
     background-color: #31bab1;
     padding: 15px;
     display: grid;
     grid-template-rows: auto auto;
-    row-gap: 10px;
+    row-gap: 5px;
     border-radius: 10px;
     transition:
       box-shadow 0.4s ease,
