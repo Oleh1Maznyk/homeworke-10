@@ -2,14 +2,29 @@ body {
     background: linear-gradient(to right, #00587A, #00CFC1, #6DD5ED);
     font-family: 'Arial', sans-serif;
     display: flex;
-    justify-content: left;
+    flex-direction: column;
+    gap: 40px;
     align-items: center;
-    margin: 75px 400px;
+    margin: 75px;
 }
 
-.skill_box {
-    width: 100px;
-    height: 100px;
+.main_box {
+    width: 450px;
+    height: 490px;
+    background-color: #00CFC1;
+    padding: 15px;
+    display: grid;
+    grid-template-rows: auto auto;
+    row-gap: 10px;
+    border-radius: 10px;
+    transition:
+      box-shadow 0.4s ease,
+      transform 0.3s ease;
+}
+
+.main_box:hover {
+    box-shadow: 0 0 10px #0c7f78, 0 0 30px #00CFC1;
+    transform: scale(1.05);
 }
 
 .card {
@@ -23,7 +38,7 @@ body {
     margin: 0px auto;
     box-sizing:content-box;
     transition:
-      box-shadow 0.4s ease-in-out,
+      box-shadow 0.4s ease,
       transform 0.3s ease;
 }
 
